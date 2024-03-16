@@ -74,14 +74,23 @@ a:hover {
   text-decoration: none;
 }
 
-body,
+body {
+  background: linear-gradient(to bottom right, #e4f7f4, #babeba,#969292,#525050);/* White gradient from top to bottom */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  animation: gradient 15s ease infinite;
+
+}
+
+
 td,
 th,
 tr,
 p,
 a {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 strong {
@@ -112,6 +121,13 @@ h2 {
 .one {
   width: 160px;
   height: 160px;
+  position: relative;
+}
+
+.one-vid {
+  padding-top: 23%;
+  width: 160px;
+  height: 180px;
   position: relative;
 }
 
